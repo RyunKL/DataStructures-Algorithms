@@ -14,7 +14,7 @@ public class Main {
         //searches each index one by one
         for(int i = 0; i < array.length - 1; i++){
             //set the current smallest value as the first index
-            int min = array[i];
+            int min = i;
 
             //search throughout the array for a smaller value
             for(int j = i + 1; j < array.length; j++){
